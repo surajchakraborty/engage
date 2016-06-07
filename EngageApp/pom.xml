@@ -8,7 +8,7 @@
 	<name>EngageApp Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<properties>
-		<spring.version>4.0.1.RELEASE</spring.version>
+		<spring.version>4.2.6.RELEASE</spring.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -36,6 +36,11 @@
 			<version>${spring.version}</version>
 		</dependency>
 
+		<dependency>
+    <groupId>org.springframework.data</groupId>
+    <artifactId>spring-data-elasticsearch</artifactId>
+    <version>2.0.1.RELEASE</version>
+</dependency>
 	</dependencies>
 	<build>
 
